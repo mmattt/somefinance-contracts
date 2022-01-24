@@ -6,7 +6,7 @@ var TBond = artifacts.require("TBond"); // Done
 var TShare = artifacts.require("TShare"); // Done
 var TaxOffice = artifacts.require("TaxOffice"); // Done
 var TombTaxOracle = artifacts.require("TombTaxOracle"); // TODO
-var Timelock = artifacts.require("Timelock"); // TODO
+var Timelock = artifacts.require("Timelock"); // Done
 var Tomb = artifacts.require("Tomb"); // Done
 var Treasury = artifacts.require("Treasury");  // TODO
 
@@ -15,6 +15,7 @@ const day = Math.round(86400000/1000);
 
 
 module.exports = function(deployer) {
+  // deployer.deploy(Treasury);
   deployer.deploy(DummyToken);
   deployer.deploy(Masonry);
   deployer.deploy(TBond);
