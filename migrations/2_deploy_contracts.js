@@ -15,7 +15,7 @@ const day = Math.round(86400000/1000);
 
 
 module.exports = function(deployer) {
-  // deployer.deploy(Treasury);
+  deployer.deploy(Treasury);
   deployer.deploy(DummyToken);
   deployer.deploy(Masonry);
   deployer.deploy(TBond);
