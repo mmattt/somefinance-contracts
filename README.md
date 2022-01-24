@@ -2,4 +2,5 @@
 
 ## Deploy Contracts 
 1. Start Ganache on port `8545`
-1. ```truffle migrate --network development --reset```
+2. ```yarn add @openzeppelin/contracts@3.3
+3. ```truffle migrate --network development --reset```
