@@ -8,7 +8,7 @@ var TaxOffice = artifacts.require("TaxOffice"); // Done
 var TombTaxOracle = artifacts.require("TombTaxOracle"); // TODO
 var Timelock = artifacts.require("Timelock"); // Done
 var Tomb = artifacts.require("Tomb"); // Done
-var Treasury = artifacts.require("Treasury");  // TODO
+var Treasury = artifacts.require("Treasury");  // Done
 
 const startTime = Math.round((new Date().getTime() + (86400000 * 2))/1000); // Today + 2 days
 const day = Math.round(86400000/1000);
