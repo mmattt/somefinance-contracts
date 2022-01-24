@@ -1,8 +1,15 @@
-var DummyToken = artifacts.require("DummyToken");
-var Tomb = artifacts.require("Tomb");
-var Treasury = artifacts.require("Treasury");
-var TShare = artifacts.require("TShare");
-var Masonry = artifacts.require("Masonry")
+var Distributor = artifacts.require("Distributor"); // TODO
+var DummyToken = artifacts.require("DummyToken"); // DONE
+var Masonry = artifacts.require("Masonry");  // DONE
+var Oracle = artifacts.require("Oracle"); // TODO
+var TBond = artifacts.require("TBond"); // TODO
+var TShare = artifacts.require("TShare"); // TODO
+var TaxOffice = artifacts.require("TaxOffice"); // TODO
+var TombTaxOracle = artifacts.require("TombTaxOracle"); // TODO
+var Timelock = artifacts.require("Timelock"); // TODO
+var Tomb = artifacts.require("Tomb"); // TODO
+var Treasury = artifacts.require("Treasury");  // TODO
+
 
 module.exports = function(deployer) {
   deployer.deploy(DummyToken);
